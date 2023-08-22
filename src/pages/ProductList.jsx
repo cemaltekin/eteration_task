@@ -6,7 +6,6 @@ import ProductCard from "../components/ProductCard";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { useMemo } from "react";
 import Spinner from "../components/Spinner";
-
 export default function ProductList() {
   const [openFilter, setOpenFilter] = useState(false);
   useEffect(() => {
